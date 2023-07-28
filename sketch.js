@@ -91,7 +91,7 @@ function keyPressed() {
 
     Matter.Body.setAngle(arrow.body, angle);
    playerArrows.push(arrow);
-     numberOfArrows += 1;
+     numberOfArrows -= 1;
   }
   }
 
